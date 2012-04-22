@@ -8,8 +8,7 @@
 </head>
 <body>
 	<center>
-		<h2>Welcome to Craig-Project CT390</h2>
-	
+		<h2>Welcome to Craig-Project CT390</h2>	
 	<hr>
 		<form style="background-color: #CCCCCC" action="project" method="POST"><br>
 			<input type="text" name="username" id="username"/><br>

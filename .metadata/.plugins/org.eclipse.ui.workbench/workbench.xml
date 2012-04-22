@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="46" version="2.0">
+<workbench progressCount="73" version="2.0">
 <workbenchAdvisor/>
 <window height="751" width="1364" x="0" y="15">
 <fastViewData fastViewLocation="1024"/>
@@ -21,6 +21,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="172" y="26"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jst.jsp.core.jspsource.source" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -35,17 +36,22 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 <editor id="org.eclipse.jst.jsp.core.jspsource.source" name="index.jsp" partName="index.jsp" path="/home/dkeg/java/CT390_Project/craig-project/WebContent/index.jsp" title="index.jsp" tooltip="craig-project/WebContent/index.jsp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/craig-project/WebContent/index.jsp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="669" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="691" selectionTopPixel="0"/>
 </editor>
 <editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="project.java" partName="project.java" path="/home/dkeg/java/CT390_Project/craig-project/src/LoginServlet/project.java" title="project.java" tooltip="craig-project/src/LoginServlet/project.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/craig-project/src/LoginServlet/project.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1260" selectionTopPixel="327"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1854" selectionTopPixel="296"/>
+</editor>
+<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="welcome.jsp" partName="welcome.jsp" path="/home/dkeg/java/CT390_Project/craig-project/WebContent/welcome.jsp" title="welcome.jsp" tooltip="craig-project/WebContent/welcome.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/craig-project/WebContent/welcome.jsp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="438" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -54,8 +60,7 @@
 </view>
 <view id="org.eclipse.ui.views.AllMarkersView" partName="Markers">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.allSeverityField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="Markers">
-<expanded>
-<category IMemento.internal.id="JSP Problem (1 item)"/>
+<expanded>&#x0A;<category IMemento.internal.id="JSP Problem (1 item)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.allSeverityField="350" org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="395" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.allSeverityField"/>
@@ -169,7 +174,7 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.24950495" ratioLeft="252" ratioRight="758" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottomRight" ratio="0.69875777" ratioLeft="450" ratioRight="194" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.wst.server.ui.ServersView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.AllMarkersView" label="Markers"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
 <page content="org.eclipse.wst.server.ui.ServersView" label="Servers"/>
@@ -208,155 +213,126 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/craig-project/WebContent/index.jsp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/craig-project/src/LoginServlet/project.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/craig-project/WebContent/index.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/craig-project/WebContent/welcome.html"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=craig-project/\/home\/dkeg\/apache-tomcat-7.0.26\/lib\/servlet-api.jar&lt;javax.servlet.http(HttpServletResponse.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/craig-project/WebContent/welcome.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/craig-project/WebContent/welcome1.jsp"/>
 </editors>
-<item historyLabel="project.java" index="1">
-<position info="not_deleted" x="1353" y="0"/>
+<item historyLabel="project.java" index="0">
+<position info="not_deleted" x="1439" y="0"/>
 </item>
-<item historyLabel="project.java" index="1">
-<position info="not_deleted" x="1346" y="0"/>
-</item>
-<item historyLabel="index.jsp" index="0">
-<position info="not_deleted" x="329" y="0"/>
-</item>
-<item historyLabel="index.jsp" index="0">
-<position info="not_deleted" x="437" y="0"/>
-</item>
-<item historyLabel="project.java" index="1">
-<position info="not_deleted" x="1658" y="0"/>
-</item>
-<item historyLabel="index.jsp" index="0">
-<position info="not_deleted" x="437" y="0"/>
-</item>
-<item historyLabel="project.java" index="1">
-<position info="not_deleted" x="1658" y="0"/>
-</item>
-<item historyLabel="index.jsp" index="0">
-<position info="not_deleted" x="437" y="0"/>
-</item>
-<item historyLabel="index.jsp" index="0">
-<position info="not_deleted" x="437" y="0"/>
-</item>
-<item historyLabel="project.java" index="1">
-<position info="not_deleted" x="1658" y="0"/>
-</item>
-<item historyLabel="project.java" index="1">
-<position info="not_deleted" x="1658" y="0"/>
-</item>
-<item historyLabel="project.java" index="1">
+<item historyLabel="welcome.html" index="2">
 <position/>
 </item>
-<item historyLabel="project.java" index="1">
+<item historyLabel="welcome.html" index="2">
 <position/>
 </item>
-<item historyLabel="project.java" index="1">
+<item historyLabel="welcome.html" index="2">
+<position info="not_deleted" x="304" y="0"/>
+</item>
+<item historyLabel="index.jsp" index="1">
+<position info="not_deleted" x="691" y="0"/>
+</item>
+<item historyLabel="welcome.html" index="2">
+<position info="not_deleted" x="304" y="0"/>
+</item>
+<item historyLabel="project.java" index="0">
+<position info="not_deleted" x="1439" y="0"/>
+</item>
+<item historyLabel="HttpServletResponse.class" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="project.java" index="0">
+<position info="not_deleted" x="1439" y="0"/>
+</item>
+<item historyLabel="welcome.html" index="2">
+<position info="not_deleted" x="304" y="0"/>
+</item>
+<item historyLabel="welcome.jsp" index="4">
 <position/>
 </item>
-<item historyLabel="project.java" index="1">
+<item historyLabel="project.java" index="0">
+<position info="not_deleted" x="1439" y="0"/>
+</item>
+<item historyLabel="welcome1.jsp" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="welcome.jsp" index="4">
 <position/>
 </item>
-<item historyLabel="project.java" index="1">
+<item historyLabel="project.java" index="0">
+<position info="not_deleted" x="1449" y="0"/>
+</item>
+<item historyLabel="welcome.jsp" index="4">
+<position info="not_deleted" x="625" y="0"/>
+</item>
+<item historyLabel="project.java" index="0">
+<position info="not_deleted" x="1250" y="114"/>
+</item>
+<item historyLabel="welcome.jsp" index="4">
+<position info="not_deleted" x="674" y="0"/>
+</item>
+<item historyLabel="project.java" index="0">
+<position info="not_deleted" x="1087" y="32"/>
+</item>
+<item historyLabel="welcome.jsp" index="4">
+<position info="not_deleted" x="674" y="0"/>
+</item>
+<item historyLabel="project.java" index="0">
+<position info="not_deleted" x="1854" y="0"/>
+</item>
+<item historyLabel="welcome.jsp" index="4">
 <position/>
 </item>
-<item historyLabel="project.java" index="1">
+<item historyLabel="project.java" index="0">
+<position info="not_deleted" x="1854" y="0"/>
+</item>
+<item historyLabel="welcome.jsp" index="4">
 <position/>
 </item>
-<item historyLabel="project.java" index="1">
+<item historyLabel="project.java" index="0">
+<position info="not_deleted" x="1854" y="0"/>
+</item>
+<item historyLabel="welcome.jsp" index="4">
 <position/>
 </item>
-<item historyLabel="project.java" index="1">
-<position/>
+<item historyLabel="project.java" index="0">
+<position info="not_deleted" x="1854" y="0"/>
 </item>
-<item historyLabel="project.java" index="1">
-<position/>
+<item historyLabel="welcome.jsp" index="4">
+<position info="not_deleted" x="612" y="0"/>
 </item>
-<item historyLabel="project.java" index="1">
-<position/>
+<item historyLabel="welcome.jsp" index="4">
+<position info="not_deleted" x="674" y="0"/>
 </item>
-<item historyLabel="project.java" index="1">
-<position/>
+<item historyLabel="project.java" index="0">
+<position info="not_deleted" x="1854" y="0"/>
 </item>
-<item historyLabel="project.java" index="1">
-<position/>
+<item historyLabel="project.java" index="0">
+<position info="not_deleted" x="1854" y="0"/>
 </item>
-<item historyLabel="project.java" index="1">
-<position/>
+<item historyLabel="welcome.jsp" index="4">
+<position info="not_deleted" x="674" y="0"/>
 </item>
-<item historyLabel="project.java" index="1">
-<position/>
+<item historyLabel="welcome.jsp" index="4">
+<position info="not_deleted" x="674" y="0"/>
 </item>
-<item historyLabel="project.java" index="1">
-<position/>
+<item historyLabel="project.java" index="0">
+<position info="not_deleted" x="1854" y="0"/>
 </item>
-<item historyLabel="project.java" index="1">
-<position/>
+<item historyLabel="welcome.jsp" index="4">
+<position info="not_deleted" x="674" y="0"/>
 </item>
-<item historyLabel="project.java" index="1">
-<position/>
+<item historyLabel="welcome.jsp" index="4">
+<position info="not_deleted" x="428" y="0"/>
 </item>
-<item historyLabel="project.java" index="1">
-<position info="not_deleted" x="1226" y="0"/>
+<item historyLabel="welcome.jsp" index="4">
+<position info="not_deleted" x="438" y="0"/>
 </item>
-<item historyLabel="project.java" index="1">
-<position info="not_deleted" x="1551" y="0"/>
-</item>
-<item historyLabel="project.java" index="1">
-<position info="not_deleted" x="1551" y="0"/>
-</item>
-<item historyLabel="project.java" index="1">
-<position info="not_deleted" x="1655" y="0"/>
-</item>
-<item historyLabel="project.java" index="1">
-<position info="not_deleted" x="1655" y="0"/>
-</item>
-<item historyLabel="project.java" index="1">
-<position info="not_deleted" x="1653" y="0"/>
-</item>
-<item historyLabel="project.java" index="1">
-<position info="not_deleted" x="1653" y="0"/>
-</item>
-<item historyLabel="project.java" index="1">
-<position info="not_deleted" x="1653" y="0"/>
-</item>
-<item historyLabel="project.java" index="1">
-<position info="not_deleted" x="1653" y="0"/>
-</item>
-<item historyLabel="project.java" index="1">
-<position info="not_deleted" x="1653" y="0"/>
-</item>
-<item historyLabel="project.java" index="1">
-<position info="not_deleted" x="1653" y="0"/>
-</item>
-<item historyLabel="project.java" index="1">
-<position info="not_deleted" x="1653" y="0"/>
-</item>
-<item historyLabel="project.java" index="1">
-<position info="not_deleted" x="1673" y="0"/>
-</item>
-<item historyLabel="project.java" index="1">
-<position info="not_deleted" x="1653" y="0"/>
-</item>
-<item historyLabel="project.java" index="1">
-<position info="not_deleted" x="1627" y="0"/>
-</item>
-<item historyLabel="project.java" index="1">
-<position info="not_deleted" x="1658" y="0"/>
-</item>
-<item historyLabel="project.java" index="1">
-<position info="not_deleted" x="1658" y="0"/>
-</item>
-<item historyLabel="project.java" index="1">
-<position info="not_deleted" x="1322" y="0"/>
-</item>
-<item historyLabel="project.java" index="1">
-<position info="not_deleted" x="1187" y="0"/>
-</item>
-<item historyLabel="index.jsp" index="0">
-<position info="not_deleted" x="669" y="0"/>
-</item>
-<item active="true" historyLabel="project.java" index="1">
-<position info="not_deleted" x="1187" y="0"/>
+<item active="true" historyLabel="project.java" index="0">
+<position info="not_deleted" x="1854" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -372,11 +348,13 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="HttpServletResponse.class" tooltip="javax.servlet.http.HttpServletResponse">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=craig-project/\/home\/dkeg\/apache-tomcat-7.0.26\/lib\/servlet-api.jar&lt;javax.servlet.http(HttpServletResponse.class"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="project.java" tooltip="craig-project/src/LoginServlet/project.java">
 <persistable path="/craig-project/src/LoginServlet/project.java"/>
 </file>
