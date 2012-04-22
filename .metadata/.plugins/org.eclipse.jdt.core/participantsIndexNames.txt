@@ -1,0 +1,3 @@
+INDEX VERSION 1.126
+/home/dkeg/java/CT390_Project/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2457985963.index
+/craig-project/src

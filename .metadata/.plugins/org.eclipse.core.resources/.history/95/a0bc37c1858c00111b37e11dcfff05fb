@@ -1,0 +1,57 @@
+package LoginServlet;
+
+import java.io.IOException;
+import java.sql.Date;
+import java.util.Calendar;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+@WebServlet("/project")
+public class project extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    public project() {
+        super();
+
+    }
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		getAction(request, response);
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		getAction(request, response);
+	}
+	
+private void getAction(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		String usrname = request.getParameter("username");
+		String pswrd = request.getParameter("password");
+
+		if (usrname != null && pswrd != null) {
+			response.getWriter().println("Hello" + ' ' + usrname + ", you are visitng on" + 
+											' ' + getDate());
+			storeName(request, usrname);                			//set and get session
+		}
+		else {
+			response.getWriter().println("Who are you?");
+			//usrname = "World";
+		}
+	}
+
+	private void storeName(HttpServletRequest request, String usrname) {
+		HttpSession session = request.getSession(true);
+		session.setAttribute("name", usrname);
+		session.getAttribute(usrname);
+	}
+
+	private java.util.Date getDate() {
+		Calendar cal = Calendar.getInstance();
+		return cal.getTime();
+	}
+}
