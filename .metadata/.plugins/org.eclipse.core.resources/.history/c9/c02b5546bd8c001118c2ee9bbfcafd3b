@@ -42,7 +42,7 @@ private void getAction(HttpServletRequest request, HttpServletResponse response)
 			response.getWriter().println("Hello" + ' ' + usrname +  
 								        ", you are visitng on" +' ' + getDate());
 			storeName(request, usrname);
-			response.sendRedirect("/craig-project/welcome.jsp");
+			response.sendRedirect("/craig-project/welcome.html");
 		}
 		else {
 			response.sendError(HttpServletResponse.SC_NOT_FOUND,"Not recognized.");
