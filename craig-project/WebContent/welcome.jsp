@@ -20,6 +20,7 @@ This page has been visited <%= count %> times
 
  
 <p>Hello <%= session.getAttribute("username") %></p>
+<p> <%= response.getHeader("cke") %>
 
  <a href='./'>back</a>
 </center>

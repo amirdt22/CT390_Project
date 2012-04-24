@@ -1,0 +1,2 @@
+			//response.getWriter().println("Hello" + ' ' + usrname +  
+			//					        ", you are visitng on" +' ' + getDate());

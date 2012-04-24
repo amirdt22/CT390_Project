@@ -7,6 +7,7 @@ import java.util.Hashtable;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -33,20 +34,26 @@ public class LogInServlet extends HttpServlet {
 		getAction(request, response);
 	}
 	
-private void getAction(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	private void getAction(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		String usrname = request.getParameter("username");
 		String pswrd = request.getParameter("password");
+		Cookie[] cke = request.getCookies();
 
 		if (usrname != "" && pswrd != "" && pswrd.equals(users.get(usrname))) {
-			response.getWriter().println("Hello" + ' ' + usrname +  
-								        ", you are visitng on" +' ' + getDate());
 			storeName(request, usrname);
-			response.sendRedirect("/craig-project/welcome.jsp");
+			setHeader(response, usrname, cke);
+			response.sendRedirect("./welcome.jsp");
 		}
 		else {
 			response.sendError(HttpServletResponse.SC_NOT_FOUND,"Not recognized.");
 		}
+	}
+
+	private void setHeader(HttpServletResponse response, String usrname,
+		Cookie[] cke) {
+		response.setHeader("Cookie-Monster", usrname + ' ' + "has visited" 
+							+ ' ' + cke.length + ' ' + "times");
 	}
 
 	private void storeName(HttpServletRequest request, String usrname) {
