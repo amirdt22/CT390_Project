@@ -1,3 +1,7 @@
+<%@page import="javax.print.attribute.DateTimeSyntax"%>
+<%@page import="java.text.DateFormat"%>
+<%@page import="java.text.spi.DateFormatProvider"%>
+<%@page import="java.util.Date"%>
 <%@page import="org.apache.catalina.User"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -16,11 +20,10 @@
 int count = 0;
 %>
 
-This page has been visited <%= count %> times
+This page has been visited <%= count++ %> times
 
  
-<p>Hello <%= session.getAttribute("username") %></p>
-<p> <%= response.getHeader("cke") %>
+<p>Hello <%= session.getAttribute("username")%></p>
 
  <a href='./'>back</a>
 </center>
